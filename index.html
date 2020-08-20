@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="friends.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,8 +17,65 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+        <section><h1>The Grill Gang</h1></section>
+        <section>
+            <section><img class="fragment" data-frament-index="0" src="/friends/all/me.jpg" alt="" srcset=""></section>
+            <section><img class="fragment" src="/friends/all/first-joined.png" alt="" srcset=""></section>
+            <section><img class="fragment" src="/friends/all/grill-gang.png" alt="" srcset=""></section>
+            <section><img class="fragment" src="/friends/all/name-wheel.png" alt="" srcset=""> </section>
+            <section><img class="fragment" src="/friends/all/at-this-point.png" alt="" srcset="">            </section>
+        </section>
+
+        <section><h1>Patrick</h1></section>
+				<section>
+          <!-- <div class="r-stack"> -->
+              <section><img class="fragment" src="/friends/pat/pat-yell.jpg" alt="Patrick yelling" srcset=""/></section>
+              <section><img class="fragment" src="/friends/pat/pat-shave.jpg" alt="Patrick yelling" srcset=""/></section>
+              <section><img class="fragment" src="/friends/pat/pat-scream.jpg" alt="Patrick yelling" srcset=""/></section>
+              <section><img class="fragment" src="/friends/pat/pat-piano.png" alt="Patrick yelling" srcset=""/></section>
+              <section><img class="fragment" src="/friends/pat/pat-bully.png" alt="Patrick yelling" srcset=""/></section>
+              <section><img class="fragment" src="/friends/pat/pat-barb.png" alt="Patrick yelling" srcset=""/></section>
+          <!-- </div> -->
+        </section>
+
+        <section><h1>Jabob</h1></section>
+				<section>
+            <section><img class="fragment" src="/friends/jacob/jacob-sxc.png" srcset=""/></section>
+            <section><img class="fragment" src="/friends/jacob/jacob-hair.png" srcset=""/></section>
+            <section><img class="fragment" src="/friends/jacob/jacob-bee.png" srcset=""/></section>
+            <section><img class="fragment" src="/friends/jacob/jacob-marge.png" srcset=""/></section>
+            <section><img class="fragment" src="/friends/jacob/jacob-shook.jpeg" srcset=""/></section>
+            <section>
+              <video class="fragment">
+                <source data-src="/friends/jacob/jabob.webm" type="video/webm"/>
+              </video>
+            </section>
+        </section>
+
+        <section><h1>Mum</h1></section>
+				<section>
+            <section><img class="fragment" src="/friends/sarah/sarah-bucket.jpg" srcset=""/></section>
+            <section><img class="fragment" src="/friends/sarah/sarah-bucket2.jpg" srcset=""/></section>
+            <section><img class="fragment" src="/friends/sarah/sarah-skill.png" srcset=""/></section>
+        </section>
+
+        <section><h1>Nic</h1></section>
+				<section>
+            <section><img class="fragment" src="/friends/nic/nic-hair.jpg" srcset=""/></section>
+            <section><img class="fragment" src="/friends/nic/nic-smile.jpg" srcset=""/></section>
+            <section>
+              <video class="fragment">
+                <source data-src="/friends/nic/nibc.webm" type="video/webm" />
+              </video>
+            </section>
+        </section>
+
+        <section><h1>Vincent</h1></section>
+				<section>
+            <section><img class="fragment" src="/friends/vincent/vincent-chill.jpg" srcset=""/></section>
+            <section><img class="fragment" src="/friends/vincent/vincent-ladies.jpg" srcset=""/></section>
+            <section><img class="fragment" src="/friends/vincent/vincent-hair.jpg" srcset=""/></section>
+        </section>
 			</div>
 		</div>
 
@@ -31,7 +89,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+        autoPlayMedia: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
