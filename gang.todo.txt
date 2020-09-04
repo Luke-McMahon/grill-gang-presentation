@@ -1,5 +1,5 @@
 Grill Gang Presentation
- - [ ] Have a final slide of:
-   - [ ] 'i cant wait to become close with everyone here
-   - [ ] thanks for allowing em to be a part of grill gang
-   - [ ] thanks for listening
+ - [x] Have a final slide of:
+   - [x] 'i cant wait to become close with everyone here
+   - [x] thanks for allowing em to be a part of grill gang
+   - [x] thanks for listening
